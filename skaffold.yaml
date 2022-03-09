@@ -9,7 +9,6 @@ kind: Config
 build:
   googleCloudBuild:
     projectId: galloro-demos
-    kanikoImage: gcr.io/kaniko-project/executor
   artifacts:
   - image: python-guestbook-backend
     context: ./src/backend
